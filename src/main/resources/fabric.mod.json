@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "loose_trigger",
+  "version": "${version}",
+  "name": "Loose Trigger",
+  "description": "Adds a quicker way to call /trigger commands",
+  "authors": [
+    "dzwdz"
+  ],
+  "contact": {},
+  "license": "MPL-2.0",
+  "icon": "assets/loose_trigger/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "dzwdz.loose_trigger.EntryPoint"
+    ]
+  },
+  "mixins": [
+    "loose_trigger.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.9.3+build.207",
+    "fabric": "*",
+    "minecraft": "1.16.1"
+  }
+}
