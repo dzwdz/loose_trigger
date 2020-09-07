@@ -7,7 +7,10 @@
   "authors": [
     "dzwdz"
   ],
-  "contact": {},
+  "contact": {
+    "sources": "https://github.com/dzwdz/loose_trigger",
+    "issues": "https://github.com/dzwdz/loose_trigger/issues"
+  },
   "license": "MPL-2.0",
   "icon": "assets/loose_trigger/icon.png",
   "environment": "client",
@@ -22,6 +25,13 @@
   "depends": {
     "fabricloader": ">=0.9.3+build.207",
     "fabric": "*",
-    "minecraft": "1.16.1"
+    "minecraft": "1.16.x"
+  },
+  "custom": {
+    "modupdater": {
+      "strategy": "curseforge",
+      "projectID": 406837,
+      "strict": false
+    }
   }
 }
